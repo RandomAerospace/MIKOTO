@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP W25N01GVZEIG
+D 1Gb Serial NAND Flash Memory with uniform 2KB+64B page size and set Buffer Read Mode as default
+K
+F https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25N01GVZEIG&type=datasheet
+$ENDCMP
+#
+$CMP BMI088
+D Inertial Measurement Unit Digital Output 2.5V/3.3V Automotive
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/994c3bf88e91a9e9fead6a819d348e4d.pdf
+$ENDCMP
+#
+$CMP bmp280
+D Digital Pressure Sensor
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-24/462913.pdf
+$ENDCMP
+#
+$CMP BMM150
+D Board Mount Hall Effect / Magnetic Sensors 3-Axis 1.56x1.56mm WLCSP-12 Geomagnetic
+K
+F https://www.arrow.com/en/products/bmm150/bosch
+$ENDCMP
+#
+$CMP 19-237_R6GHBHC-A01_2T
+D Standard LEDs - SMD
+K
+F https://componentsearchengine.com/Datasheets/1/19-237_R6GHBHC-A01_2T.pdf
+$ENDCMP
+#
+#End Doc Library

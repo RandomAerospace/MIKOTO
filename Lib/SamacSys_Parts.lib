@@ -1,0 +1,190 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model W25N01GVZEIG
+#/1123839/970241/2.49/9/2/Integrated Circuit
+DEF W25N01GVZEIG IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "W25N01GVZEIG" 1450 200 50 H V L CNN
+F2 "SON127P800X600X80-9N-D" 1450 100 50 H I L CNN
+F3 "https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25N01GVZEIG&type=datasheet" 1450 0 50 H I L CNN
+F4 "1Gb Serial NAND Flash Memory with uniform 2KB+64B page size and set Buffer Read Mode as default" 1450 -100 50 H I L CNN "Description"
+F5 "0.8" 1450 -200 50 H I L CNN "Height"
+F6 "Winbond" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "W25N01GVZEIG" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "454-W25N01GVZEIG" 1450 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Winbond/W25N01GVZEIG?qs=qSfuJ%252Bfl%2Fd6Vfx%252BkNMbzhw%3D%3D" 1450 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "W25N01GVZEIG" 1450 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/w25n01gvzeig/winbond-electronics?region=nac" 1450 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1450 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1450 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X ~CS 1 0 0 200 R 50 50 0 0 P
+X DO(IO1) 2 0 -100 200 R 50 50 0 0 P
+X ~WP(IO2) 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X EP 9 800 -800 200 U 50 50 0 0 P
+X VCC 8 1600 0 200 L 50 50 0 0 P
+X ~HOLD(IO3) 7 1600 -100 200 L 50 50 0 0 P
+X CLK 6 1600 -200 200 L 50 50 0 0 P
+X DI(IO0) 5 1600 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BMI088
+#/1430200/970241/2.49/16/4/Integrated Circuit
+DEF BMI088 IC 0 30 Y Y 1 F N
+F0 "IC" 1250 700 50 H V L CNN
+F1 "BMI088" 1250 600 50 H V L CNN
+F2 "BMI088" 1250 500 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/994c3bf88e91a9e9fead6a819d348e4d.pdf" 1250 400 50 H I L CNN
+F4 "Inertial Measurement Unit Digital Output 2.5V/3.3V Automotive" 1250 300 50 H I L CNN "Description"
+F5 "1.45" 1250 200 50 H I L CNN "Height"
+F6 "Bosch Sensortec" 1250 100 50 H I L CNN "Manufacturer_Name"
+F7 "BMI088" 1250 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "262-BMI088" 1250 -100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMI088?qs=f9yNj16SXrIMFspTV6RB6Q%3D%3D" 1250 -200 50 H I L CNN "Mouser Price/Stock"
+F10 "BMI088" 1250 -300 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bmi088/bosch?region=europe" 1250 -400 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1250 -500 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1250 -600 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X INT2 1 400 700 200 D 50 50 0 0 P
+X NC 2 500 700 200 D 50 50 0 0 N
+X VDD 3 600 700 200 D 50 50 0 0 P
+X GNDA 4 700 700 200 D 50 50 0 0 P
+X CSB2 5 800 700 200 D 50 50 0 0 P
+X GNDIO 6 900 700 200 D 50 50 0 0 P
+X PS 7 1000 700 200 D 50 50 0 0 P
+X SCL/SCK 8 1400 0 200 L 50 50 0 0 P
+X SDA/SDI 9 1000 -800 200 U 50 50 0 0 P
+X SDO2 10 900 -800 200 U 50 50 0 0 P
+X VDDIO 11 800 -800 200 U 50 50 0 0 P
+X INT3 12 700 -800 200 U 50 50 0 0 P
+X INT4 13 600 -800 200 U 50 50 0 0 P
+X CSB1 14 500 -800 200 U 50 50 0 0 P
+X SDO1 15 400 -800 200 U 50 50 0 0 P
+X INT1 16 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 500 1200 500 1200 -600 200 -600 200 500 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model bmp280
+#/237787/970241/2.49/8/3/Integrated Circuit
+DEF bmp280 IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "bmp280" 1150 200 50 H V L CNN
+F2 "8-PIN-METAL-LID-LGA" 1150 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-24/462913.pdf" 1150 0 50 H I L CNN
+F4 "Digital Pressure Sensor" 1150 -100 50 H I L CNN "Description"
+F5 "" 1150 -200 50 H I L CNN "Height"
+F6 "Bosch Sensortec" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "bmp280" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "262-BMP280" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP280?qs=QhAb4EtQfbUP9Z%252BCHM3Wyg%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "BMP280" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bmp280/bosch" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1150 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1150 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X GND_1 1 1300 0 200 L 50 50 0 0 W
+X CSB 2 1300 -100 200 L 50 50 0 0 I
+X SDI 3 1300 -200 200 L 50 50 0 0 P
+X SCK 4 1300 -300 200 L 50 50 0 0 P
+X SDO 5 0 -300 200 R 50 50 0 0 P
+X VDDIO_1 6 0 -200 200 R 50 50 0 0 W
+X GND_2 7 0 -100 200 R 50 50 0 0 W
+X VDDIO_2 8 0 0 200 R 50 50 0 0 W
+P 5 0 1 6 200 100 1100 100 1100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BMM150
+#/12857020/970241/2.49/12/3/Integrated Circuit
+DEF BMM150 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "BMM150" 1050 200 50 H V L CNN
+F2 "BMM150" 1050 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/bmm150/bosch" 1050 0 50 H I L CNN
+F4 "Board Mount Hall Effect / Magnetic Sensors 3-Axis 1.56x1.56mm WLCSP-12 Geomagnetic" 1050 -100 50 H I L CNN "Description"
+F5 "0.6" 1050 -200 50 H I L CNN "Height"
+F6 "Bosch Sensortec" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BMM150" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "262-BMM150" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMM150?qs=d72FGnIDsgTOmKpCEe6mYw%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "BMM150" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bmm150/bosch" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1050 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1050 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X PS A1 0 0 200 R 50 50 0 0 P
+X SCK A3 0 -100 200 R 50 50 0 0 P
+X CSB A5 0 -200 200 R 50 50 0 0 P
+X VDDIO B2 0 -300 200 R 50 50 0 0 P
+X SDI B4 0 -400 200 R 50 50 0 0 P
+X SDO C1 0 -500 200 R 50 50 0 0 P
+X GND_1 C5 1200 0 200 L 50 50 0 0 P
+X INT D2 1200 -100 200 L 50 50 0 0 P
+X DRY D4 1200 -200 200 L 50 50 0 0 P
+X GND_2 E1 1200 -300 200 L 50 50 0 0 P
+X GND_3 E3 1200 -400 200 L 50 50 0 0 P
+X VDD E5 1200 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 19-237_R6GHBHC-A01_2T
+#/568497/970241/2.49/4/4/LED
+DEF 19-237_R6GHBHC-A01_2T LED 0 30 Y Y 1 F N
+F0 "LED" 1350 300 50 H V L CNN
+F1 "19-237_R6GHBHC-A01_2T" 1350 200 50 H V L CNN
+F2 "19237R6GHBHCA012T" 1350 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/19-237_R6GHBHC-A01_2T.pdf" 1350 0 50 H I L CNN
+F4 "Standard LEDs - SMD" 1350 -100 50 H I L CNN "Description"
+F5 "0.35" 1350 -200 50 H I L CNN "Height"
+F6 "Everlight" 1350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "19-237/R6GHBHC-A01/2T" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "638-19237R6GHBHCA01" 1350 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Everlight/19-237-R6GHBHC-A01-2T?qs=8cKuZ6Ok2lYUXQkGhGNjkg%3D%3D" 1350 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "19-237/R6GHBHC-A01/2T" 1350 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/19-237r6ghbhc-a012t/everlight-electronics?region=europe" 1350 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1350 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1350 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X K_RED 1 0 -100 200 R 50 50 0 0 P
+X K_GREEN 2 0 0 200 R 50 50 0 0 P
+X K_BLUE 3 1500 0 200 L 50 50 0 0 P
+X COMMON_A 4 1500 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
